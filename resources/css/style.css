@@ -78,3 +78,37 @@ nav {
   text-transform: uppercase;
   margin: 0.67em 0px;
 }
+
+.container {
+  max-width: 960px;
+  margin: 0px auto;
+  background-color: white;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 8rem;
+}
+
+#paper img {
+  width: 3.5rem;
+}
+
+#ruler img {
+  width: 5rem;
+}
+
+#truck img {
+  width: 5rem;
+}
