@@ -99,6 +99,8 @@ nav {
   align-items: center;
   text-align: center;
   height: 8rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
 }
 
 #paper img {
@@ -111,4 +113,56 @@ nav {
 
 #truck img {
   width: 5rem;
+}
+
+.infobar-container {
+  display: flex;
+}
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  max-width: 35%;
+}
+
+.info-content h2 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  color: white;
+  margin-bottom: 1rem;
+  width: 10rem;
+}
+
+footer {
+  max-width: 960px
+  margin: 0px auto;
+  background-color: azure;
+  height: 10.5rem;
+  margin-top: 5rem;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  margin-left: 4rem;
+  height: 10.5rem;
+}
+
+.footer-logo img {
+  height: 1.5rem;
+}
+
+.footer-logo span {
+  margin-left: 1rem;
 }
