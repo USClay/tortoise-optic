@@ -23,6 +23,10 @@ header {
   padding: 1rem 0rem;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 nav {
   display: flex;
   justify-content: flex-end;
@@ -165,4 +169,69 @@ footer {
 
 .footer-logo span {
   margin-left: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  header {
+    top: 0;
+    width: 100%;
+  }
+  .banner-image {
+    padding: 0rem;
+    height: 22rem;
+  }
+  .CTA {
+    margin-right: 2rem;
+    padding: 0.75rem 4rem;
+    margin-top: 5rem;
+  }
+  .CTA h1 {
+    font-size: 1.33rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .banner-image {
+    height: 17rem;
+    background-position: 20%;
+  }
+  .nav-items {
+    display: none;
+  }
+  .mobile-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+  }
+  .infobar-container {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+  }
+  .CTA {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+  .CTA h1 {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .container.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+  }
+  .flex-container {
+    flex-direction: column;
+  }
+  .info-content {
+    width: 100%;
+    align-items: stretch;
+  }
 }
